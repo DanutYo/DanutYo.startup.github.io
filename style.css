@@ -1,0 +1,113 @@
+html,
+body{
+	width:100%;
+	height:100%;
+	font-family: "Montserrat", sans-serif;
+	background: url(header.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color:#D5B494;
+	position: relative;
+    bottom: 70px;
+}
+
+hr{
+	border-color:#B94E70;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer{
+	height:10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+
+	background-color: #B94E70;
+	border-color:#B94E70;
+}
+
+.btn-primary:hover{
+
+	background-color: #A82083;
+	border-color:#A82083;
+
+}
+
+.btn-xl{
+
+	padding: 1rem 2rem;
+}
+
+
+.btn-primary:visited{
+
+	background-color: #A82083;
+	border-color:#A82083;
+
+}
+
+.btn-primary:active{
+
+	background-color: #B94E70;
+	border-color:#B94E70;
+
+}
+
+@media only screen and (max-width: 360px) {
+	section{
+		position: relative;
+    	bottom: 10px;
+	}
+/*	hr{
+		opacity: 0;
+	}*/
+	strong{
+		position: relative;
+    	bottom: 40px;
+    	font-size: 25px;
+	}
+	button{
+		
+	    font-size: 12px;
+   		padding: 15px;
+	    position: relative;
+	    top: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 429px) {
+	section{
+		position: relative;
+    	bottom: 10px;
+	}
+/*	hr{
+		opacity: 0;
+	}*/
+	strong{
+		position: relative;
+    	bottom: 40px;
+    	font-size: 25px;
+	}
+	button{
+		
+	    font-size: 12px;
+   		padding: 15px;
+	    position: relative;
+	    top: 20px;
+	}
+
+}
